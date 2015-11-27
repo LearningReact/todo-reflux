@@ -23,7 +23,6 @@ module.exports = React.createClass({
   },
 
   renderLoading () {
-    console.log('loading?', this.props.loading);
     if (this.props.loading) {
       return <div>Loading...</div>;
     }

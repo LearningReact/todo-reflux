@@ -1,5 +1,5 @@
 import React from 'react';
-import * as AppActions from '../actions/AppActions.js';
+import AppActions from '../actions/AppActions.js';
 
 module.exports = React.createClass({
   getInitialState () {
@@ -40,7 +40,7 @@ module.exports = React.createClass({
   },
 
   handleClick (id) {
-    AppActions.toggleCompletion(id);
+    AppActions.toggleTask(id);
   },
 
   handleDelete (id) {

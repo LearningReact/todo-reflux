@@ -1,7 +1,7 @@
 import React from 'react';
 import uuid from 'node-uuid';
 
-import * as AppActions from '../actions/AppActions.js';
+import AppActions from '../actions/AppActions.js';
 
 module.exports = React.createClass({
   getInitialState () {
